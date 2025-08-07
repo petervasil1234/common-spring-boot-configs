@@ -5,11 +5,3 @@ dependencies {
     implementation "org.springframework.boot:spring-boot-starter-oauth2-resource-server:${springBootVersion}"
     implementation "io.swagger.core.v3:swagger-annotations:${swaggerVersion}"
 }
-
-publishing {
-    publications {
-        mavenJava(MavenPublication) {
-            from components.java
-        }
-    }
-}
