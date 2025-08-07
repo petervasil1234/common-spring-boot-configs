@@ -2,3 +2,4 @@ rootProject.name = 'common-spring-boot-configs'
 
 include 'custom-jackson-configuration'
 include 'custom-security-configuration'
+include 'common-rest-api'
