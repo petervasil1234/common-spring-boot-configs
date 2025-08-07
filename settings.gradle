@@ -1,0 +1,4 @@
+rootProject.name = 'common-spring-boot-configs'
+
+include 'custom-jackson-autoconfiguration'
+include 'custom-security-configuration'
