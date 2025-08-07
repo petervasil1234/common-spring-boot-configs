@@ -3,6 +3,10 @@ allprojects {
     version = '1.0-SNAPSHOT'
 }
 
+ext {
+    springBootVersion = '3.5.3'
+}
+
 subprojects {
     apply plugin: 'java-library'
     apply plugin: 'maven-publish'
