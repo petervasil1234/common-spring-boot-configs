@@ -5,6 +5,7 @@ allprojects {
 
 ext {
     springBootVersion = '3.5.3'
+    swaggerVersion = '2.2.28'
 }
 
 subprojects {
